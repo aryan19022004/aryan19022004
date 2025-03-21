@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Toggle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white">
+    <!--Navigation bar-->
+
+    <nav id="nav" class="bg-red-400 p-3 relative">
+        <div class="flex md:justify-evenly md:items-center justify-between  container mx-auto items-center">
+            <!--BRAND NAME-->
+            <div class="text-5xl font-bold text-white">Zalvee</div>
+            <!--NAVIGATION ITEMS-->
+            <ul class=" hidden md:flex ">
+                <li><a href=""
+                        class="px-4 p-2 text-2xl hover:bg-white hover:text-black rounded-3xl text-white ">Home</a></li>
+                <li><a href=""
+                        class="px-4 p-2 text-2xl hover:bg-white hover:text-black rounded-3xl text-white">About</a></li>
+                <li><a href=""
+                        class="px-4 p-2 text-2xl hover:bg-white hover:text-black rounded-3xl text-white">Contact</a>
+                </li>
+                <li><a href=""
+                        class="px-4 p-2 text-2xl hover:bg-white hover:text-black rounded-3xl text-white">Services</a>
+                </li>
+
+            </ul>
+            <button id="darkmode"
+                class="hidden md:flex mt-4 px-4 py-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-all duration-300">
+                &#9728;
+            </button>
+
+
+            <!--HAMBURGER MENU-->
+            <button id="menu-btn" class="text-2xl md:hidden text-white">
+                &#9776;
+            </button>
+        </div>
+        <div class="my-6 hidden" id="mobileMenu">
+            <!--Items which will appear in phones-->
+            <ul class="md:hidden bg-red-100 text-lg flex flex-col items-center gap-y-2">
+                <li><a href="#"
+                        class="py-3 px-7 block rounded-2xl hover:bg-red-300 hover:text-white transition-all duration-300">Home</a>
+                </li>
+                <li><a href="#"
+                        class="py-3 px-7 block rounded-2xl hover:bg-red-300 hover:text-white transition-all duration-300">About</a>
+                </li>
+                <li><a href="#"
+                        class="py-3 px-7 block rounded-2xl hover:bg-red-300 hover:text-white transition-all duration-300">Contact</a>
+                </li>
+                <li><a href="#"
+                        class="py-3 px-7 block rounded-2xl hover:bg-red-300 hover:text-white transition-all duration-300">Services</a>
+                </li>
+                <button id="darkmode2"
+                    class="mt-4 px-4 py-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-all duration-300">
+                    &#9728;
+                </button>
+                <!-- Dark Mode Toggle Button -->
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--Navbar ends here-->
+    <section class="text-center py-20 bg-gradient-to-br from-indigo-500 to-purple-600 text-white">
+        <h1 class="text-4xl font-bold sm:text-5xl">Welcome to Zalvee</h1>
+        <p class="text-xl mt-4">Your one-stop solution for amazing services</p>
+        <button class="mt-6 px-6 py-3 bg-white text-indigo-600 font-bold rounded-full hover:bg-gray-200 transition-all duration-300">Get Started</button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 container mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-10">Features</h2>
+        <div class="grid  max-w-[88%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7 ">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-xl text-center">
+                <h3 class="text-2xl font-semibold">Fast</h3>
+                <p class="mt-2">Lightning fast speed for all users</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-xl text-center">
+                <h3 class="text-2xl font-semibold">Secure</h3>
+                <p class="mt-2">Top-notch security for your data</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-xl text-center">
+                <h3 class="text-2xl font-semibold">Reliable</h3>
+                <p class="mt-2">Always up and running</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-xl text-center">
+                <h3 class="text-2xl font-semibold">Reliable</h3>
+                <p class="mt-2">Always up and running</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-gray-800 text-white">
+        <p>&copy; 2025 Zalvee. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+<script>
+    let button = document.getElementById("darkmode");
+    let button2 = document.getElementById("darkmode2");
+    let menubtn = document.getElementById("menu-btn")
+    let mobilemenu = document.getElementById('mobileMenu')
+    let navbar = document.getElementById('nav')
+    menubtn.addEventListener('click', () => {
+        mobilemenu.classList.toggle('hidden')
+    }
+    )
+    button.addEventListener("click", () => {
+        document.body.classList.toggle("bg-white");
+        document.body.classList.toggle("text-black");
+        document.body.classList.toggle("bg-slate-700");
+        document.body.classList.toggle("text-white");
+        navbar.classList.toggle("bg-red-400")
+        navbar.classList.toggle("bg-indigo-950")
+
+        // Button text toggle
+        if (document.body.classList.contains("bg-slate-700")) {
+            button.innerHTML = "&#127769;";
+        } else {
+            button.innerHTML = "&#9728;";
+        }
+    });
+    button2.addEventListener("click", () => {
+        document.body.classList.toggle("bg-white");
+        document.body.classList.toggle("text-black");
+        document.body.classList.toggle("bg-slate-700");
+        document.body.classList.toggle("text-white");
+        navbar.classList.toggle("bg-red-400")
+        navbar.classList.toggle("bg-indigo-950")
+
+        // Button text toggle
+        if (document.body.classList.contains("bg-slate-700")) {
+            button2.innerHTML = "&#127769;";
+        } else {
+            button2.innerHTML = "&#9728;";
+        }
+    });
+</script>
+
+</html>
