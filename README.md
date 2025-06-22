@@ -10,7 +10,7 @@
 ## 🏆 Projects
 - 🔹 **[Secure Random Quote Generator](https://secure-random-quote-generator.onrender.com/)** – Implemented **JWT authentication** for secure access.
 - 🔹 **[Anonymous Chat Room](https://chatroom-kxij.onrender.com/)** – Built using **Socket.io** for real-time messaging.
-- 🔹 **[Quiz Application](https://aryan19022004.github.io/QUIZ-APPLICATION/)** – An interactive quiz app with real-time score tracking.
+- 🔹 **[Quiz Application](https://code-guruji.vercel.app/)** – An interactive quiz app with real-time score tracking.
 
 ## 💡 Skills
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap, React.js
