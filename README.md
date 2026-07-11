@@ -1,147 +1,119 @@
-# 👋 Hi, I'm Aryan Tiwari
+<h1 align="center">Hi 👋, I'm Aryan Tiwari</h1>
+<h3 align="center">Software Engineer | Full Stack & Mobile App Developer (Android & iOS)</h3>
 
-### Software Engineer | Full Stack & Mobile App Developer (Android & iOS)
+<p align="center">
+Building scalable web applications, backend systems and cross-platform mobile apps using MERN Stack & React Native.
+</p>
 
-I'm a Full Stack Software Engineer passionate about building scalable web applications, backend systems, and cross-platform mobile apps. I enjoy turning ideas into real products while focusing on clean architecture, performance, and developer experience.
+<p align="center">
+  <a href="mailto:aryantiwari.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-aryantiwari.dev%40gmail.com-red?style=for-the-badge&logo=gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/aryan-tiwari-002362267">
+    <img src="https://img.shields.io/badge/LinkedIn-Aryan%20Tiwari-blue?style=for-the-badge&logo=linkedin">
+  </a>
+</p>
 
 ---
 
 ## 🚀 About Me
 
-- 💻 Full Stack Developer specializing in the **MERN Stack**
-- 📱 Building cross-platform apps with **React Native**
-- ⚡ Experienced in designing scalable **REST APIs** using **Node.js & Express**
-- 🐳 Working with **Docker**, **Nginx**, deployment, and backend architecture
-- 🛠 Love solving real-world problems through software
-- 🌱 Currently improving my skills in **DSA**, **System Design**, and backend scalability
-- 🤝 Open to Software Engineer, Full Stack, Backend, and React Native opportunities
+- 💻 Full Stack Developer specializing in **MERN Stack**
+- 📱 React Native Developer (Android & iOS)
+- ⚡ Experienced in scalable **REST APIs**
+- 🐳 Hands-on with **Docker**, **Nginx**, Deployment & Backend Architecture
+- 🧠 Currently learning **DSA**, **System Design** & **Scalable Backend Engineering**
+- 🤝 Open to **Software Engineer**, **Backend**, **Full Stack** and **React Native** opportunities
 
 ---
 
 # 💻 Tech Stack
 
-### Languages
-- JavaScript
-- TypeScript
-- C
-- C++
+<p align="center">
 
-### Frontend
-- React.js
-- React Native
-- HTML5
-- CSS3
-- Tailwind CSS
-- NativeWind
+<img src="https://skillicons.dev/icons?i=js,ts,cpp,c,react,nodejs,express,mongodb,mysql,docker,git,github,postman,vscode,linux,html,css,tailwind" />
 
-### Backend
-- Node.js
-- Express.js
-- REST APIs
-- MVC Architecture
-
-### Database
-- MongoDB
-- MySQL
-- Mongoose
-
-### Mobile
-- React Native
-- Expo
-- React Navigation
-- AsyncStorage
-
-### Authentication & Security
-- JWT
-- Cookies
-- HMAC-SHA256
-- Session Authentication
-
-### DevOps & Deployment
-- Docker
-- Docker Compose
-- Nginx
-- Vercel
-- Render
-
-### Tools
-- Git
-- GitHub
-- Postman
-- VS Code
-- Linux
+</p>
 
 ---
 
 # 🚀 Featured Projects
 
-## 🚀 VeloCache
-**Caching-as-a-Service Platform + Developer SDK**
+## ⚡ VeloCache
+> High Performance Caching-as-a-Service Platform
 
-**Tech Stack:** Node.js • Express • React • MongoDB • Docker
-
-✨ Features
-- Hybrid L1 + L2 Cache
+- Hybrid L1 + L2 Caching
 - Express SDK
 - HMAC Request Signing
-- Real-time Analytics Dashboard
 - Dockerized Architecture
+- Real-time Analytics Dashboard
 
 ---
 
 ## 💼 Skill Mandi
-**Freelance Marketplace**
+> Freelance Marketplace Platform
 
-**Tech Stack:** React • Node.js • Express • MongoDB • Docker
-
-✨ Features
 - Escrow Payment System
 - Role-based Authentication
-- Client & Freelancer Dashboards
-- Commission Model
 - Docker Deployment
+- Commission Revenue Model
 
 ---
 
 ## 📱 FocusVault
-**Cross-platform Productivity App**
+> Productivity & Focus Management App
 
-**Tech Stack:** React Native • TypeScript • NativeWind
-
-✨ Features
 - Pomodoro Timer
-- Offline Storage
+- Offline First
 - Focus Analytics
 - Task Management
-- Android & iOS Support
+- Android & iOS
 
 ---
 
-# 💼 Experience
+# 📊 GitHub Stats
 
-### Web Development Intern — TechTok4U
+<p align="center">
 
-- Developed **50+ REST APIs**
-- Worked on ERP modules using **React, React Native, Node.js, Express & MongoDB**
-- Led a small engineering team
-- Built Finance, Class, and Profile modules
-- Worked with Agile development and Git workflows
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=aryan19022004&show_icons=true&theme=tokyonight"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryan19022004&layout=compact&theme=tokyonight"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=aryan19022004&theme=tokyonight"/>
+
+</p>
 
 ---
 
-# 📈 Currently Learning
+# 🏆 GitHub Trophies
 
-- Advanced Data Structures & Algorithms
-- System Design
-- Backend Optimization
-- Scalable Architecture
-- Cloud Technologies
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=aryan19022004&theme=tokyonight&margin-w=15&row=1"/>
+
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aryan19022004&theme=tokyo-night"/>
+
+</p>
 
 ---
 
 # 📫 Connect With Me
 
-📧 **Email:** aryantiwari.dev@gmail.com
+<p align="left">
+
+📧 **Email:** **aryantiwari.dev@gmail.com**
 
 💼 **LinkedIn:**  
 https://www.linkedin.com/in/aryan-tiwari-002362267
@@ -149,6 +121,14 @@ https://www.linkedin.com/in/aryan-tiwari-002362267
 💻 **GitHub:**  
 https://github.com/aryan19022004
 
+</p>
+
 ---
 
-⭐ Thanks for visiting my profile! Feel free to explore my repositories and connect with me.
+<p align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+*"Code. Learn. Build. Repeat."*
+
+</p>
